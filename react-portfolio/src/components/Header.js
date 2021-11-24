@@ -1,12 +1,11 @@
 import React from 'react';
 // Here we are importing a CSS file as a dependency
 import '../styles/style.css';
-
 function Header() {
   return (
   <div>
      <header id = "intro">
-        <h1 class="rounded">Noah Blackman</h1>
+        <h1 className="rounded">Noah Blackman</h1>
         <nav>
             <a href="#about">About Me</a>
             <a href="#work">Work</a>
@@ -15,15 +14,15 @@ function Header() {
         </nav>
     </header>
 
-    <section class="wood">
+    <section className="wood">
         
         <div>
-            <h3 class="rounded ">Full-Stack Development With Global Insights</h3>
+            <h3 className="rounded ">Full-Stack Development With Global Insights</h3>
         </div>
 
     </section>
 
-    <article class="page" id="about">
+    <article className="page" id="about">
        <h1>About Me</h1>
         <div>
             <p>

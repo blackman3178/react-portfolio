@@ -8,10 +8,9 @@ function App() {
   return (
     <div>
       <Header />
+      <Card />
       <Navbar />
-      <Card />
-      <Card />
-      <Card />
+      
     </div>
   );
 }
